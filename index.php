@@ -6,9 +6,9 @@
         <title></title>
     </head>
     <body>
-        <form>
-            <input id="nomusuario "type="text" name="nomusuario" >
-            <input id="clave" type="password" name="clave" i>
+        <form id="frmusuario">
+            <div><label>Usuario:</label><input id="nomusuario "type="text" name="nomusuario"></div>
+            <div><label>Clave:</label><input id="clave" type="password" name="clave"></div>
             <input id="enviar" type="button" onclick="" value="Enviar">
         </form>
     </body>
@@ -17,7 +17,17 @@
     {
             $("#enviar").click(function()
             {
-                $("form").hide();
+                /*$("form").hide();
+                alert("Ocultaste el formulario "+$("#nomusuario").val());*/
+        if($("#nomusuario").val()!="" && $("#clave").val()!="")
+        {
+            $("#frmusuario").submit();
+            
+        }
+        else
+        {
+            alert("Debe agregar el usuario y clave");
+        }
             });
     });
     </script>
