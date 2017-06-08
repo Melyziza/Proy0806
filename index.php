@@ -6,8 +6,19 @@
         <title></title>
     </head>
     <body>
-        <?php
-        
-        ?>
+        <form>
+            <input type="text" name="nomusuario" id="nomusuario">
+            <input type="password" name="clave" id="clave">
+            <input type="button" onclick="" value="Enviar">
+        </form>
     </body>
+    <script>
+    $(document).ready(function()
+    {
+            $("#enviar").click(function()
+            {
+                $("form").hide();
+            });
+    });
+    </script>
 </html>
