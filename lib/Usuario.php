@@ -8,7 +8,7 @@ class Usuario{
     function __construct($usu="",$clave="") 
     {
         $this->nombre=$usu;
-        $this->calve=$calve;
+        $this->clave=$clave;
     }
     
     
