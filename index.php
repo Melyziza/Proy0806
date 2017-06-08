@@ -7,9 +7,9 @@
     </head>
     <body>
         <form>
-            <input type="text" name="nomusuario" id="nomusuario">
-            <input type="password" name="clave" id="clave">
-            <input type="button" onclick="" value="Enviar">
+            <input id="nomusuario "type="text" name="nomusuario" >
+            <input id="clave" type="password" name="clave" i>
+            <input id="enviar" type="button" onclick="" value="Enviar">
         </form>
     </body>
     <script>
