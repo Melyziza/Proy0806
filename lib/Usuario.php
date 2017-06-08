@@ -10,9 +10,7 @@ class Usuario{
         $this->nombre=$usu;
         $this->clave=$clave;
     }
-    
-    
-    
+
     /*Valida la existencia del usuario*/
     function VerificaUsuario(){
         $oConn=new Conexion();
