@@ -20,7 +20,7 @@
                 /*$("form").hide();
                 alert("Ocultaste el formulario "+$("#nomusuario").val());*/
         if($("#nomusuario").val()!="" && $("#clave").val()!="")
-        {
+        { 
             $("#frmusuario").submit();
             
         }
